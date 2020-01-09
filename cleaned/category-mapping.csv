@@ -24,3 +24,8 @@ q34,"{'$0-$9,999': 0, '$50,000-$74,999': 8, '$200,000+': 6, '$25,000-$49,999': 7
 q35,"{'Middle Atlantic': 2, 'East North Central': 0, 'West North Central': 7, 'Pacific': 5, 'South Atlantic': 6, nan: -1, 'New England': 4, 'Mountain': 3, 'West South Central': 8, 'East South Central': 1}","{2: 'Middle Atlantic', 0: 'East North Central', 7: 'West North Central', 5: 'Pacific', 6: 'South Atlantic', -1: nan, 4: 'New England', 3: 'Mountain', 8: 'West South Central', 1: 'East South Central'}",False
 racethn4,"{'Hispanic': 1, 'White': 3, 'Other': 2, 'Black': 0}","{1: 'Hispanic', 3: 'White', 2: 'Other', 0: 'Black'}",False
 educ4,"{'College or more': 3, 'Some college': 1, 'Post graduate degree': 2, 'High school or less': 0}","{3: 'College or more', 1: 'Some college', 2: 'Post graduate degree', 0: 'High school or less'}",True
+age3,"{'35 - 64': 1, '65 and up': 2, '18 - 34': 0}","{1: '35 - 64', 2: '65 and up', 0: '18 - 34'}",True
+orientation,"{'Gay/Bisexual': 0, 'Straight': 3, 'No answer': 1, 'Other': 2}","{0: 'Gay/Bisexual', 3: 'Straight', 1: 'No answer', 2: 'Other'}",False
+employment_status,"{'not looking for work': 1, 'retired': 2, 'working full-time': 4, 'student': 3, 'working part-time': 5, 'looking for work': 0, nan: -1}","{1: 'not looking for work', 2: 'retired', 4: 'working full-time', 3: 'student', 5: 'working part-time', 0: 'looking for work', -1: nan}",False
+os,"{'Windows': 2, 'iOS': 3, nan: -1, 'MacOS': 1, 'Android': 0}","{2: 'Windows', 3: 'iOS', -1: nan, 1: 'MacOS', 0: 'Android'}",False
+device,"{'Desktop / Laptop': 0, 'Phone / Tablet': 1, nan: -1}","{0: 'Desktop / Laptop', 1: 'Phone / Tablet', -1: nan}",False
