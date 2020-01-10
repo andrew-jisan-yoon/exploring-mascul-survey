@@ -1,0 +1,4 @@
+tqdm==4.40.2
+pandas==0.25.3
+numpy==1.17.4
+seaborn==0.9.0
