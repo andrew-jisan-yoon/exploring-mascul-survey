@@ -20,15 +20,15 @@ Each row corresponds to a survey question and each column corresponds to a demog
 ### Data exploration
 Data exploration is done in `exploring-dataset.ipynb`. <br>
 
-To aid the exploration process, `exploring-dataset.ipynb` generates in the first step `seaborn.heatmap` of uncertainty coefficients (aka. Theil's U) of survey responses. <br>
-Uncertainty coefficient is an asymmetric measure of association between categorical features. <br>
+To aid the exploration process, `exploring-dataset.ipynb` generates in the first step `seaborn.heatmap` of Theil's U statistic (aka. uncertainty coefficient) of survey responses. <br>
+Theil's U statistic is an asymmetric measure of association between categorical features. <br>
 This metric was chosen as a summary statistic in lieu of Pearson's P value, because `cleaned-responses.csv` turned out to have either boolean or categorical datatype. <br>
 
-Another alternative metric for categorical data was Cramer's V, but it was a symmetric measure that cannot capture dependency relations between features, therefore it was not an effective metric to guide exploratory process.
+Another alternative metric for categorical data was Cramer's V statistic, but it was a symmetric measure that cannot capture dependency relations between features, therefore it was not an effective metric to guide exploratory process.
 
 ### Methods used
 * Data cleaning
-* Theil's U (aka Uncertainty coefficient)
+* Theil's U (aka. uncertainty coefficient)
 * Data visualization
 * Data extraction
 
