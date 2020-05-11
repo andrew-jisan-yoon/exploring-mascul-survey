@@ -1,7 +1,7 @@
 ﻿# Data Cleaning and Exploration on Masculinity Survey dataset
  Data source : https://github.com/fivethirtyeight/data/tree/master/masculinity-survey
 
-#### -- Project status : Active
+#### -- Project status : Closed
 
 ## Project Objective
 The purpose of this project is to demonstrate how to clean and explore a survey dataset. <br>
